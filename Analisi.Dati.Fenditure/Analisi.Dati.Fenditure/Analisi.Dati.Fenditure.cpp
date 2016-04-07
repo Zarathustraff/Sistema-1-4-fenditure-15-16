@@ -5,6 +5,7 @@
 #include "BasicExcel.hpp"
 #include "ExcelFormat.h"
 #include "math.h"
+#include "persistence1d.hpp"
 
 #ifdef _WIN32
 
@@ -14,6 +15,7 @@
 #include <windows.h>
 #include <shellapi.h>
 #include <crtdbg.h>
+#include <vector>
 
 #else // _WIN32
 
@@ -91,6 +93,11 @@ int main()
 	YExcel::BasicExcelWorksheet* f2Sheet = f2.GetWorksheet(0);
 	YExcel::BasicExcelWorksheet* f3Sheet = f3.GetWorksheet(0);
 	YExcel::BasicExcelWorksheet* f4Sheet = f4.GetWorksheet(0);
+
+	vector<long> f1L, f2L, f3L, f4L;
+	vector<float> f1F, f2F, f3F, f4F;
+
+	for (int row = 0; f1Sheet->Cell(row,1)->)
 
     return 0;
 }

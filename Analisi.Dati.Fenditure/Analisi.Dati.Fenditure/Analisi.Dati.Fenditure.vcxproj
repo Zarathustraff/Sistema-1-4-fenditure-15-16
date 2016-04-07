@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClInclude Include="BasicExcel.hpp" />
     <ClInclude Include="ExcelFormat.h" />
+    <ClInclude Include="persistence1d.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>

@@ -30,6 +30,9 @@
     <ClInclude Include="ExcelFormat.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
+    <ClInclude Include="persistence1d.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

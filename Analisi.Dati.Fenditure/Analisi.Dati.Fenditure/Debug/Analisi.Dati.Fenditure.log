@@ -1,0 +1,7 @@
+﻿  Analisi.Dati.Fenditure.cpp
+c:\users\stefano\documents\github\sistema-1-4-fenditure-15-16\analisi.dati.fenditure\analisi.dati.fenditure\analisi.dati.fenditure.cpp(42): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\stefano\documents\github\sistema-1-4-fenditure-15-16\analisi.dati.fenditure\analisi.dati.fenditure\analisi.dati.fenditure.cpp(123): warning C4244: 'argomento': conversione da 'double' a 'const float'. Possibile perdita di dati.
+c:\users\stefano\documents\github\sistema-1-4-fenditure-15-16\analisi.dati.fenditure\analisi.dati.fenditure\analisi.dati.fenditure.cpp(129): warning C4244: 'argomento': conversione da 'double' a 'const float'. Possibile perdita di dati.
+c:\users\stefano\documents\github\sistema-1-4-fenditure-15-16\analisi.dati.fenditure\analisi.dati.fenditure\analisi.dati.fenditure.cpp(135): warning C4244: 'argomento': conversione da 'double' a 'const float'. Possibile perdita di dati.
+c:\users\stefano\documents\github\sistema-1-4-fenditure-15-16\analisi.dati.fenditure\analisi.dati.fenditure\analisi.dati.fenditure.cpp(141): warning C4244: 'argomento': conversione da 'double' a 'const float'. Possibile perdita di dati.
+  Analisi.Dati.Fenditure.vcxproj -> C:\Users\Stefano\Documents\GitHub\Sistema-1-4-fenditure-15-16\Analisi.Dati.Fenditure\Debug\Analisi.Dati.Fenditure.exe

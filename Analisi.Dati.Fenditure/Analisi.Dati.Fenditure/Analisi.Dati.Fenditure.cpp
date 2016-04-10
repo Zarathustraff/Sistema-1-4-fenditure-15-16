@@ -142,6 +142,25 @@ int main()
 				f4F.push_back(f4D[row] /*/ 10000*/);
 				std::cout << row << ": " << f4Sheet->Cell(row, 1)->GetDouble() << ": " << f4D[row] << ": " << f4F[row] << endl;
 			};
+
+			std::cout << "Ora Persistence1D: " << endl;
+
+			p1d::Persistence1D p1, p2, p3, p4;
+			vector<p1d::TPairedExtrema> pair1, pair2, pair3, pair4;
+			vector<int> min1, min2, min3, min4, max1, max2, max3, max4;
+			p1.RunPersistence(f1F);
+			p2.RunPersistence(f2F);
+			p3.RunPersistence(f3F);
+			p4.RunPersistence(f4F);
+			p1.PrintResults();
+			std::cout << endl;
+			p2.PrintResults();
+			std::cout << endl;
+			p3.PrintResults();
+			std::cout << endl;
+			p4.PrintResults();
+			std::cout << endl; //Giunto a questo punto ed avendo visto che i risultati ottenuti con la libreria p1D sono di difficile interpretazione termino il lavoro.
+
 		}
 		catch (int e) {
 
